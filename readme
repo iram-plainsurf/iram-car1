@@ -1,0 +1,27 @@
+database=config		 (location:assets/php/config.php)
+tables=car_tbl(login table),customers 
+
+table_name = "car_tbl"
+column_1="car_id"
+column_2="username"
+column_3="password"
+
+database sql_file="cardb.sql"
+
+customer.php ="ADD File design fields Customer Name,Address,Contact Number,Car Model,Price,Payment which Contains form"
+customersDashUD.php ="Update ,Edit File design fields Customer Name,Address,Contact Number,Car Model,Price,Payment which Contains form"
+index.php = "Dashbord  designing page "
+backup.php = "import and export files are design"
+
+assets/js/customer.js="form validation page of Add"
+assets/js/customersDashUD.js="form validation page of Edit,Update and Delete"
+
+assets/php/save_customers.php= "CURD operation perform Insert/Edit/Update/Delete"
+assets/php/save_login.php="login php code"
+ 
+includes/link.php= "gives links from head tag"
+includes/design.php="design part of from"
+
+public/cardb.json="the file in which data exported"
+ 
+ 
